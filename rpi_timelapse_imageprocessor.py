@@ -3,7 +3,6 @@
 # Resizes images to set resolution, adds a timestamp based on the filename, and discards dark images.
 # Must include input and output folders. Output folder is emptied when the script is run.
 
-from token import NUMBER
 from PIL import Image, ImageDraw, ImageFont
 import os
 import shutil
